@@ -1,14 +1,18 @@
 {
-    "name": "i-dev-code/common",
-    "authors": [
-        {
-            "name": "James Todd",
-        }
-    ],
-    "autoload": {
-      "psr-4": {
-        "IDevCode": "src"
-      }
-    },
-    "require": {}
+  "name": "i-dev-code/common",
+  "authors": [
+    {
+      "name": "James Todd"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IDevCode": "src"
+    }
+  },
+  "require": {
+    "php": "^7.1.3",
+    "ext-json": "*",
+    "laravel/framework": "5.7.*"
+  }
 }
