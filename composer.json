@@ -1,13 +1,13 @@
 {
-    "name": "IDevCode/Common",
+    "name": "i-dev-code/common",
     "authors": [
         {
             "name": "James Todd",
         }
     ],
     "autoload": {
-      "psr-0": {
-        "IDevCode\\Common\\": "src"
+      "psr-4": {
+        "IDevCode": "src"
       }
     },
     "require": {}

@@ -1,5 +1,5 @@
 <?php
-namespace IDevCode\Common;
+namespace IDevCode;
 
 class Word {
   public function getWord(){
